@@ -95,7 +95,7 @@ TRACY_API uint32_t GetThreadHandleImpl()
 #elif defined __EMSCRIPTEN__
     // Not supported, but let it compile.
     return 0;
-#elif defined __3ds__
+#elif defined __3DS__
     // Not supported, but let it compile.
     return 0;
 #else
